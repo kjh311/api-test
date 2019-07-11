@@ -1,5 +1,6 @@
 const Http = new XMLHttpRequest();
-const url = 'https://jsonplaceholder.typicode.com/posts';
+// const url = 'https://jsonplaceholder.typicode.com/posts';
+const url = 'https://api.json';
 Http.open("GET", url);
 Http.send();
 
@@ -12,5 +13,5 @@ for(var i = 0; i < response.length - 1; i++){
     li.innerHTML = response[i].title;  
     document.getElementById('list-ul').appendChild(li);
 	}
-	console.log(response);
+	// console.log(response);
 }
