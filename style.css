@@ -1,0 +1,13 @@
+body{
+	font-size: 18px;
+}
+.myButton{
+	padding: 10px;
+	background: lightblue;
+	font-size: 25px;
+}
+input{
+	border: 2px solid black;
+	font-size: 25px;
+	padding: 20px;
+}
